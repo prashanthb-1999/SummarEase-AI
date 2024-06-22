@@ -3,7 +3,8 @@
 
 AI-powered text summarization app
 
-!ss.png
+![ss](https://github.com/prashanthb-1999/SummarEase-AI/assets/159658312/0eab7177-99e8-4a8d-83a6-cba4bf25484c)
+
 
 ## Features
 
