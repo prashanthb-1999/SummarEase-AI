@@ -3,9 +3,8 @@ from transformers import BartForConditionalGeneration, BartTokenizer
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app) 
 
-# Load the saved BART model and tokenizer
 model_name = "bart_model"
 tokenizer = BartTokenizer.from_pretrained(model_name)
 model = BartForConditionalGeneration.from_pretrained(model_name)
